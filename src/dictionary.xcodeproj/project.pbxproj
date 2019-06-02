@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */; };
+		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
+		8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */; };
+		8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */; };
 		8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */; };
-		8DEA8FC222A43D5D007DBBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* ViewController.swift */; };
+		8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */; };
 		8DEA8FC522A43D5D007DBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC322A43D5D007DBBF5 /* Main.storyboard */; };
 		8DEA8FC722A43D5F007DBBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */; };
 		8DEA8FCA22A43D5F007DBBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC822A43D5F007DBBF5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDetailViewController.swift; sourceTree = "<group>"; };
+		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
+		8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cz2EnDictionaryViewController.swift; sourceTree = "<group>"; };
+		8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cz2EnDetailViewController.swift; sourceTree = "<group>"; };
 		8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DEA8FC122A43D5D007DBBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDictionaryViewController.swift; sourceTree = "<group>"; };
 		8DEA8FC422A43D5D007DBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DEA8FC922A43D5F007DBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +66,11 @@
 		8DEA8FD122A43DB5007DBBF5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8DEA8FC122A43D5D007DBBF5 /* ViewController.swift */,
+				8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */,
+				8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */,
+				8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */,
+				8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */,
+				8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -151,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DEA8FC222A43D5D007DBBF5 /* ViewController.swift in Sources */,
+				8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */,
+				8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */,
+				8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */,
+				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
+				8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
