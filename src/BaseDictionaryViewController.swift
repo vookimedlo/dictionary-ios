@@ -12,8 +12,8 @@ class BaseDictionaryViewController: UIViewController,
                                     UITableViewDataSource,
                                     UITableViewDelegate,
                                     UISearchBarDelegate {
-    var records: [String] = []
-    var filteredRecords: [String] = []
+    var records: [DictionaryRecord] = []
+    var filteredRecords: [DictionaryRecord] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,8 @@ class BaseDictionaryViewController: UIViewController,
                                                  for: indexPath)
         
         let record = filteredRecords[indexPath.row]
-        cell.textLabel?.text = record
+        cell.textLabel?.text = record.originalText
+        cell.detailTextLabel?.text = record.translation
         return cell
     }
     
@@ -40,7 +41,7 @@ class BaseDictionaryViewController: UIViewController,
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filteredRecords = records.filter({ (record) -> Bool in
-            record.prefix(searchText.count).compare(searchText, options: String.CompareOptions.caseInsensitive) == ComparisonResult.orderedSame
+            record.originalText.prefix(searchText.count).compare(searchText, options: String.CompareOptions.caseInsensitive) == ComparisonResult.orderedSame
         })
         
         if (searchText.count == 0) {

@@ -14,7 +14,8 @@ class CZ2EnDictionaryViewController: BaseDictionaryViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        records = ["zz", "bb", "cc", "ee", "ff", "gg", "hh", "ii", "jj", "kk", "ll", "mm", "nn", "oo", "pp", "qq", "rr", "ss", "tt", "uu", "vv", "ww", "xx", "yy", "aa"]
+        let populate = DictionaryRecordLoader(db: Bundle.main.path(forResource: "EnCz", ofType: "db")!)
+        records = populate.populate(table: "cs-en")
         filteredRecords = records
     }
     
