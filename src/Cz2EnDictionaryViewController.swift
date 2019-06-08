@@ -22,4 +22,17 @@ class CZ2EnDictionaryViewController: BaseDictionaryViewController {
     override func reloadTableViewData() {
         tableView.reloadData();
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "detail":
+            if let consumer = segue.destination as? DictionaryRecordConsumer {
+                if let indexPath = tableView.indexPathForSelectedRow {
+                    consumer.consume(record: filteredRecords[indexPath.row])
+                }
+            }
+        default:
+            debugPrint("unknown segue", segue.identifier ?? "nul")
+        }
+    }
 }
