@@ -12,6 +12,7 @@ class Cz2EnDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
 }
 
 // MARK: - IBActions

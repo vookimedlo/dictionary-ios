@@ -12,8 +12,10 @@ import SQLite
 class DictionaryRecordLoader {
     let databasePath: String// = Bundle.main.path(forResource: "EnCz", ofType: "db")!
     let id = Expression<Int64>("Id")
-    let original = Expression<String?>("Original")
+    let original = Expression<String>("Original")
     let translation = Expression<String>("Translation")
+    let notes = Expression<String>("Notes")
+    let details = Expression<String>("Details")
     
     init(db bundlePath: String) {
         databasePath = bundlePath
@@ -28,8 +30,10 @@ class DictionaryRecordLoader {
                     //print("id: \(record[id]), original: \(record[original]), translation: \(record[translation])")
                     // id: 1, name: Optional("Alice"), email: alice@mac.com
                     
-                    records.append(DictionaryRecord(originalText: record[original]!,
-                                                    translation: record[translation]))
+                    records.append(DictionaryRecord(originalText: record[original],
+                                                    translation: record[translation],
+                                                    notes: record[notes],
+                                                    details: record[details]))
                 }
             } catch {
                 records = []

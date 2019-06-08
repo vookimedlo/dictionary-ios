@@ -6,16 +6,17 @@
 //  Copyright © 2019 Michal Duda. All rights reserved.
 //
 
+import AVFoundation
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        RuntimeSettings.isOriginalVoiceAvailable = AVSpeechSynthesisVoice(language: "en-US") != nil
+        RuntimeSettings.isTranslationVioceAvailable = AVSpeechSynthesisVoice(language: "cs-CZ") != nil
         return true
     }
 

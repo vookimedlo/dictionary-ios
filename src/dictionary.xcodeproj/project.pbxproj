@@ -16,6 +16,10 @@
 		8D5A8CCA22A70DD800981669 /* EnCz.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC922A70DD800981669 /* EnCz.db */; };
 		8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */; };
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
+		8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */; };
+		8D5A8CD422A9B95800981669 /* RuntimeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */; };
+		8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */; };
+		8D9F636222ABF19800CE3C12 /* ArrayResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */; };
 		8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */; };
 		8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */; };
 		8DEA8FC522A43D5D007DBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC322A43D5D007DBBF5 /* Main.storyboard */; };
@@ -45,6 +49,10 @@
 		8D5A8CC922A70DD800981669 /* EnCz.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = EnCz.db; path = ../db/EnCz.db; sourceTree = "<group>"; };
 		8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecord.swift; sourceTree = "<group>"; };
 		8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordLoader.swift; sourceTree = "<group>"; };
+		8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordConsumer.swift; sourceTree = "<group>"; };
+		8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettings.swift; sourceTree = "<group>"; };
+		8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordNotesParser.swift; sourceTree = "<group>"; };
+		8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayResolver.swift; sourceTree = "<group>"; };
 		8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDictionaryViewController.swift; sourceTree = "<group>"; };
@@ -85,10 +93,44 @@
 		8D5A8CCB22A70E6B00981669 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D9F635C22ABCD3D00CE3C12 /* Loaders */,
+				8D9F635D22ABCD4F00CE3C12 /* Parsers */,
 				8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */,
-				8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */,
+				8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		8D5A8CD022A852FC00981669 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		8D9F635C22ABCD3D00CE3C12 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */,
+			);
+			name = Loaders;
+			sourceTree = "<group>";
+		};
+		8D9F635D22ABCD4F00CE3C12 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		8D9F636022ABF15D00CE3C12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		8DEA8FB322A43D5D007DBBF5 = {
@@ -98,7 +140,9 @@
 				8D5A8CC822A70DA300981669 /* Databases */,
 				8DEA8FD222A43DCC007DBBF5 /* Delegates */,
 				8D5A8CCB22A70E6B00981669 /* Model */,
+				8D5A8CD022A852FC00981669 /* Protocols */,
 				8DEA8FD322A43DDC007DBBF5 /* Storyboards */,
+				8D9F636022ABF15D00CE3C12 /* Utils */,
 				8DEA8FBD22A43D5D007DBBF5 /* Products */,
 				8D5A8CC322A70AFA00981669 /* Frameworks */,
 				8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */,
@@ -220,10 +264,14 @@
 				8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */,
 				8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */,
 				8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */,
+				8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */,
 				8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */,
+				8D5A8CD422A9B95800981669 /* RuntimeSettings.swift in Sources */,
 				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
+				8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
 				8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */,
+				8D9F636222ABF19800CE3C12 /* ArrayResolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

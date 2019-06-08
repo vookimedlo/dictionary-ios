@@ -11,4 +11,6 @@ import Foundation
 struct DictionaryRecord {
     var originalText: String
     var translation: String
+    var notes: String
+    var details: String
 }
