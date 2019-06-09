@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */; };
+		8D1E9D2F22AD94CE004E0814 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E9D2D22AD94CE004E0814 /* Localizable.strings */; };
 		8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */; };
 		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
 		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
@@ -19,6 +20,7 @@
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
 		8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */; };
 		8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */; };
+		8D86D04622AEDE25007E1146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D04422AEDE25007E1146 /* InfoPlist.strings */; };
 		8D903C3B22AD12670044DAA5 /* BaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */; };
 		8D903C3D22AD1CC80044DAA5 /* VoiceOverLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */; };
 		8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3F22AD5EA10044DAA5 /* Toast.swift */; };
@@ -46,7 +48,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D0FD95822AD8C26002A9795 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		8D0FD95922AD8C26002A9795 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsProtocol.swift; sourceTree = "<group>"; };
+		8D1E9D2E22AD94CE004E0814 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDetailViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDictionaryViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordLoader.swift; sourceTree = "<group>"; };
 		8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordConsumer.swift; sourceTree = "<group>"; };
 		8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsEnCz.swift; sourceTree = "<group>"; };
+		8D86D04522AEDE25007E1146 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDetailViewController.swift; sourceTree = "<group>"; };
 		8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverLanguages.swift; sourceTree = "<group>"; };
 		8D903C3F22AD5EA10044DAA5 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -168,6 +174,8 @@
 				8D5A8CC322A70AFA00981669 /* Frameworks */,
 				8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */,
 				8DEA8FCB22A43D5F007DBBF5 /* Info.plist */,
+				8D86D04422AEDE25007E1146 /* InfoPlist.strings */,
+				8D1E9D2D22AD94CE004E0814 /* Localizable.strings */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				cs,
 			);
 			mainGroup = 8DEA8FB322A43D5D007DBBF5;
 			productRefGroup = 8DEA8FBD22A43D5D007DBBF5 /* Products */;
@@ -269,6 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1E9D2F22AD94CE004E0814 /* Localizable.strings in Resources */,
+				8D86D04622AEDE25007E1146 /* InfoPlist.strings in Resources */,
 				8DEA8FCA22A43D5F007DBBF5 /* LaunchScreen.storyboard in Resources */,
 				8DEA8FC722A43D5F007DBBF5 /* Assets.xcassets in Resources */,
 				8DEA8FC522A43D5D007DBBF5 /* Main.storyboard in Resources */,
@@ -306,10 +317,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8D1E9D2D22AD94CE004E0814 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1E9D2E22AD94CE004E0814 /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8D86D04422AEDE25007E1146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D86D04522AEDE25007E1146 /* cs */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		8DEA8FC322A43D5D007DBBF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8DEA8FC422A43D5D007DBBF5 /* Base */,
+				8D0FD95822AD8C26002A9795 /* cs */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -318,6 +346,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8DEA8FC922A43D5F007DBBF5 /* Base */,
+				8D0FD95922AD8C26002A9795 /* cs */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -329,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -390,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -454,7 +485,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary.en2cz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,7 +505,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary.en2cz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

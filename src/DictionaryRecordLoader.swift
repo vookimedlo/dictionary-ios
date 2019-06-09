@@ -26,10 +26,7 @@ class DictionaryRecordLoader {
         if let db = try? Connection(databasePath) {
             let chosenTable = Table(table)
             do {
-                for record in try db.prepare(chosenTable) {
-                    //print("id: \(record[id]), original: \(record[original]), translation: \(record[translation])")
-                    // id: 1, name: Optional("Alice"), email: alice@mac.com
-                    
+                for record in try db.prepare(chosenTable) {                    
                     records.append(DictionaryRecord(originalText: record[original],
                                                     translation: record[translation],
                                                     notes: record[notes],

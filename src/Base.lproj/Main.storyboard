@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="hfe-hk-IFH" detailTextLabel="wAw-GQ-Yc0" style="IBUITableViewCellStyleSubtitle" id="4Nf-LO-5dE">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="hfe-hk-IFH" detailTextLabel="wAw-GQ-Yc0" style="IBUITableViewCellStyleSubtitle" id="4Nf-LO-5dE">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Nf-LO-5dE" id="HAM-SJ-4pF">
@@ -106,7 +106,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
                                     <navigationItem title="Detailed Information" leftItemsSupplementBackButton="YES" id="jhb-M3-9hb">
-                                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="JBg-Wu-Aud">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="JBg-Wu-Aud">
                                             <connections>
                                                 <action selector="doneAction:" destination="mfV-xm-rGl" id="Vp2-Vu-0gE"/>
                                             </connections>
@@ -341,7 +341,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
                                     <navigationItem title="About" id="lKV-CP-YmH">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="XZ3-dn-3k8">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="XZ3-dn-3k8">
                                             <connections>
                                                 <action selector="doneButtonAction:" destination="08F-zK-PP1" id="TWf-eP-sjt"/>
                                             </connections>
@@ -650,7 +650,7 @@
                                 <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="cJ3-xq-pHm" detailTextLabel="Jod-jQ-UAO" style="IBUITableViewCellStyleSubtitle" id="JwF-1N-jqS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="cJ3-xq-pHm" detailTextLabel="Jod-jQ-UAO" style="IBUITableViewCellStyleSubtitle" id="JwF-1N-jqS">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JwF-1N-jqS" id="gLH-YG-n3q">
@@ -723,7 +723,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
                                     <navigationItem title="Detailed Information" leftItemsSupplementBackButton="YES" id="NGF-bK-ppn">
-                                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="ofS-p8-h8c">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="ofS-p8-h8c">
                                             <connections>
                                                 <action selector="doneAction:" destination="RNx-Ti-Bl7" id="stt-C2-lOD"/>
                                             </connections>
@@ -954,6 +954,6 @@
         <image name="USStamp" width="1159.3333740234375" height="635"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pJr-8m-A5d"/>
+        <segue reference="fkk-Xm-LGJ"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,0 +1,168 @@
+/* Class = "UISearchBar"; placeholder = "Text to translate"; ObjectID = "0bU-87-w2d"; */
+"0bU-87-w2d.placeholder" = "Text k přeložení";
+
+/* Class = "UISearchBar"; 0bU-87-w2d.scopeButtonTitles[0] = "Title"; ObjectID = "0bU-87-w2d"; */
+"0bU-87-w2d.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; 0bU-87-w2d.scopeButtonTitles[1] = "Title"; ObjectID = "0bU-87-w2d"; */
+"0bU-87-w2d.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "placeholder"; ObjectID = "0Ja-h7-eDm"; */
+"0Ja-h7-eDm.text" = "placeholder";
+
+/* Class = "UILabel"; text = "Area:"; ObjectID = "1e8-Am-8jd"; */
+"1e8-Am-8jd.text" = "Oblast:";
+
+/* Class = "UITabBarItem"; title = "Czech to English"; ObjectID = "1sT-xd-oDZ"; */
+"1sT-xd-oDZ.title" = "Česko-Anglický";
+
+/* Class = "UILabel"; text = "placeholder"; ObjectID = "4Cc-Sv-lRh"; */
+"4Cc-Sv-lRh.text" = "placeholder";
+
+/* Class = "UINavigationItem"; title = "Czech to English"; ObjectID = "4h6-8N-EVR"; */
+"4h6-8N-EVR.title" = "Česko-Anglický";
+
+/* Class = "UISearchBar"; placeholder = "Text to translate"; ObjectID = "6oj-KR-97n"; */
+"6oj-KR-97n.placeholder" = "Text k přeložení";
+
+/* Class = "UISearchBar"; 6oj-KR-97n.scopeButtonTitles[0] = "Title"; ObjectID = "6oj-KR-97n"; */
+"6oj-KR-97n.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; 6oj-KR-97n.scopeButtonTitles[1] = "Title"; ObjectID = "6oj-KR-97n"; */
+"6oj-KR-97n.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Plural:"; ObjectID = "7s8-zd-P9U"; */
+"7s8-zd-P9U.text" = "Množné číslo:";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "bjf-00-ewN"; */
+"bjf-00-ewN.text" = "nespecifikováno";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "bmp-wW-jCv"; */
+"bmp-wW-jCv.text" = "nespecifikováno";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "cG2-8z-fku"; */
+"cG2-8z-fku.text" = "nespecifikováno";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cJ3-xq-pHm"; */
+"cJ3-xq-pHm.text" = "Title";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "Cof-Yw-Ux0"; */
+"Cof-Yw-Ux0.text" = "nespecifikováno";
+
+/* Class = "UILabel"; text = "Dictionary Data"; ObjectID = "DGx-W4-q2P"; */
+"DGx-W4-q2P.text" = "Slovníková data";
+
+/* Class = "UILabel"; text = "License:"; ObjectID = "EqJ-dq-J1c"; */
+"EqJ-dq-J1c.text" = "Licence:";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "g4h-Ah-Kd8"; */
+"g4h-Ah-Kd8.text" = "Data:";
+
+/* Class = "UINavigationItem"; title = "English to Czech"; ObjectID = "H23-DX-GiP"; */
+"H23-DX-GiP.title" = "Anglicko-Český";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hfe-hk-IFH"; */
+"hfe-hk-IFH.text" = "Title";
+
+/* Class = "UILabel"; text = "GNU FDL"; ObjectID = "chL-l8-Ir2"; */
+"chL-l8-Ir2.text" = "GNU FDL";
+
+/* Class = "UILabel"; text = "https://github.com/vookimedlo/dictionary-ios"; ObjectID = "iKc-Gf-PQh"; */
+"iKc-Gf-PQh.text" = "https://github.com/vookimedlo/dictionary-ios";
+
+/* Class = "UILabel"; text = "https://github.com/svobodneslovniky/svobodneslovniky"; ObjectID = "ISd-G8-1ZD"; */
+"ISd-G8-1ZD.text" = "https://github.com/svobodneslovniky/svobodneslovniky";
+
+/* Class = "UILabel"; text = "Homepage:"; ObjectID = "iWa-z0-euH"; */
+"iWa-z0-euH.text" = "WWW:";
+
+/* Class = "UILabel"; text = "License:"; ObjectID = "J01-H1-hFJ"; */
+"J01-H1-hFJ.text" = "Licence:";
+
+/* Class = "UINavigationItem"; title = "Detailed Information"; ObjectID = "jhb-M3-9hb"; */
+"jhb-M3-9hb.title" = "Podrobné informace";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "jJx-Ak-cx9"; */
+"jJx-Ak-cx9.text" = "Kategorie:";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Jod-jQ-UAO"; */
+"Jod-jQ-UAO.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Pronunciation"; ObjectID = "JTw-1N-vx3"; */
+"JTw-1N-vx3.text" = "Výslovnost";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "lKV-CP-YmH"; */
+"lKV-CP-YmH.title" = "O aplikaci";
+
+/* Class = "UILabel"; text = "Word Class:"; ObjectID = "LVZ-vk-YaY"; */
+"LVZ-vk-YaY.text" = "Slovní druh:";
+
+/* Class = "UILabel"; text = "Area:"; ObjectID = "Mz0-wA-Ac8"; */
+"Mz0-wA-Ac8.text" = "Oblast:";
+
+/* Class = "UINavigationItem"; title = "Detailed Information"; ObjectID = "NGF-bK-ppn"; */
+"NGF-bK-ppn.title" = "Podrobné informace";
+
+/* Class = "UILabel"; text = "no"; ObjectID = "nIE-TM-f32"; */
+"nIE-TM-f32.text" = "ne";
+
+/* Class = "UILabel"; text = "placeholder"; ObjectID = "NSe-SN-SvU"; */
+"NSe-SN-SvU.text" = "placeholder";
+
+/* Class = "UILabel"; text = "Word Class:"; ObjectID = "ogL-9b-bxS"; */
+"ogL-9b-bxS.text" = "Slovní druh:";
+
+/* Class = "UILabel"; text = "svobodneslovniky.cz"; ObjectID = "p8O-53-Tbj"; */
+"p8O-53-Tbj.text" = "svobodneslovniky.cz";
+
+/* Class = "UILabel"; text = "Pronunciation"; ObjectID = "pUA-qg-493"; */
+"pUA-qg-493.text" = "Výslovnost";
+
+/* Class = "UILabel"; text = "Author:"; ObjectID = "Pyv-HA-8ij"; */
+"Pyv-HA-8ij.text" = "Autor:";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "qFu-qW-Vlc"; */
+"qFu-qW-Vlc.text" = "nespecifikováno";
+
+/* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "qLb-IY-3Za"; */
+"qLb-IY-3Za.title" = "Info";
+
+/* Class = "UILabel"; text = "Plural:"; ObjectID = "Rnv-cd-xtF"; */
+"Rnv-cd-xtF.text" = "Množné číslo:";
+
+/* Class = "UITabBarController"; title = "Dictionary"; ObjectID = "rrj-AA-KwQ"; */
+"rrj-AA-KwQ.title" = "Slovník";
+
+/* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "svP-2q-l2E"; */
+"svP-2q-l2E.title" = "Info";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "T7D-wd-fuC"; */
+"T7D-wd-fuC.text" = "Kategorie:";
+
+/* Class = "UILabel"; text = "Dictionary Application"; ObjectID = "UXW-3h-qtz"; */
+"UXW-3h-qtz.text" = "Aplikace Slovník";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "wAw-GQ-Yc0"; */
+"wAw-GQ-Yc0.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Homepage:"; ObjectID = "WMo-aw-Vad"; */
+"WMo-aw-Vad.text" = "WWW:";
+
+/* Class = "UILabel"; text = "not specified"; ObjectID = "x0D-qW-yva"; */
+"x0D-qW-yva.text" = "nespecifikováno";
+
+/* Class = "UITabBarItem"; title = "English to Czech"; ObjectID = "Xjo-RJ-EP7"; */
+"Xjo-RJ-EP7.title" = "Anglicko-Český";
+
+/* Class = "UILabel"; text = "MIT"; ObjectID = "YbN-mU-wlp"; */
+"YbN-mU-wlp.text" = "MIT";
+
+/* Class = "UILabel"; text = "placeholder"; ObjectID = "YhE-Rw-Mv5"; */
+"YhE-Rw-Mv5.text" = "placeholder";
+
+/* Class = "UILabel"; text = "Michal Duda"; ObjectID = "ZHh-CN-oho"; */
+"ZHh-CN-oho.text" = "Michal Duda";
+
+/* Class = "UILabel"; text = "no"; ObjectID = "zsc-c8-9eh"; */
+"zsc-c8-9eh.text" = "ne";
+

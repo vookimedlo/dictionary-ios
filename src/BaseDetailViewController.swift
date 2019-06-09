@@ -53,10 +53,10 @@ class BaseDetailViewController: UIViewController, DictionaryRecordConsumer {
         switch tag {
         case 1:
             UIPasteboard.general.string = record.originalText
-            showToast(message: "in clipboard")
+            showToast(message: NSLocalizedString("in clipboard", comment: "shown toast on text storing into the clipboard"))
         case 2:
             UIPasteboard.general.string = record.translation
-            showToast(message: "in clipboard")
+            showToast(message: NSLocalizedString("in clipboard", comment: "shown toast on text storing into the clipboard"))
         default:
             debugPrint("Unknown tag", tag ?? "nil")
         }

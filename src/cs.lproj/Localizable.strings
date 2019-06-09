@@ -1,0 +1,238 @@
+/* word category: abbreviation */
+"abbreviation" = "zkratka";
+
+/* word class: adjectives */
+"adjectives" = "přídavná jména";
+
+/* word class: adverbs */
+"adverbs" = "příslovce";
+
+/* word category: American */
+"American" = "americká angličtina";
+
+/* word area: astronomy */
+"astronomy" = "astronomie";
+
+/* word category: Australian */
+"Australian" = "australská angličtina";
+
+/* word area: automotive industry */
+"automotive industry" = "automobilový průmysl";
+
+/* word area: aviation */
+"aviation" = "letectví";
+
+/* word area: biology */
+"biology" = "biologie";
+
+/* word area: boats, shipping */
+"boats, shipping" = "lodní doprava";
+
+/* word area: botany */
+"botany" = "botanika";
+
+/* word category: British */
+"British" = "britská angličtina";
+
+/* word area: building industry, architecture */
+"building industry, architecture" = "stavitelství, architektura";
+
+/* word area: ceramic industry */
+"ceramic industry" = "hrnčířství";
+
+/* word area: coating technology */
+"coating technology" = "povrchová technologie";
+
+/* word category: colloquially */
+"colloquially" = "hovorově";
+
+/* word class: conjunctions */
+"conjunctions" = "spojky";
+
+/* word area: ecology */
+"ecology" = "ekologie";
+
+/* word area: electrical engineering */
+"electrical engineering" = "elektrotechnika";
+
+/* word area: finance */
+"finance" = "finančnictví";
+
+/* word area: food processing */
+"food processing" = "potravinářství";
+
+/* word category: generic */
+"generic" = "obecně";
+
+/* word area: geodesy */
+"geodesy" = "geodézie";
+
+/* word area: geography */
+"geography" = "geografie";
+
+/* word area: geology */
+"geology" = "geologie";
+
+/* word area: historical expression or name */
+"historical expression or name" = "historický výraz nebo jméno";
+
+/* word area: chemistry */
+"chemistry" = "chemie";
+
+/* word category: childish */
+"childish" = "naivně";
+
+/* word category: idiom */
+"idiom" = "ustálené spojení";
+
+/* shown toast on text storing into the clipboard */
+"in clipboard" = "ve schránce";
+
+/* word area: information technology */
+"information technology" = "informatika";
+
+/* word class: interjections */
+"interjections" = "citoslovce";
+
+/* word category: irregular verb */
+"irregular verb" = "nepravidelné sloveso";
+
+/* word category: jokingly */
+"jokingly" = "žertovně";
+
+/* word area: legal */
+"legal" = "právnicky";
+
+/* word area: linguistic */
+"linguistic" = "lingvistika";
+
+/* word category: literary */
+"literary" = "spisovně";
+
+/* word area: mathematics */
+"mathematics" = "matematika";
+
+/* word area: medical term */
+"medical term" = "lékařství";
+
+/* word area: metallurgy */
+"metallurgy" = "metalurgie";
+
+/* word category: metaphorically */
+"metaphorically" = "metafrasticky";
+
+/* word area: meteorology */
+"meteorology" = "meteorologie";
+
+/* word area: military terminology */
+"military terminology" = "vojenství";
+
+/* word area: mining, mineralogy */
+"mining, mineralogy" = "hornictví, mineralogie";
+
+/* word area: musical terminology */
+"musical terminology" = "hudební";
+
+/* word area: mythological */
+"mythological" = "mytologie";
+
+/* is plural? */
+"no" = "ne";
+
+/* area is not specified
+   word class is not specified */
+"not specified" = "nespecifikováno";
+
+/* word class: nouns */
+"nouns" = "podstatná jména";
+
+/* word area: nuclear physics, technology */
+"nuclear physics, technology" = "jaderná fyzika";
+
+/* word class: numerals */
+"numerals" = "číslovky";
+
+/* word category: old use, archaic */
+"old use, archaic" = "zastarale";
+
+/* word area: optics */
+"optics" = "optika";
+
+/* word category: phrasal verb */
+"phrasal verb" = "frázové sloveso";
+
+/* word category: phrase */
+"phrase" = "rčení";
+
+/* word area: physics */
+"physics" = "fyzika";
+
+/* word category: poeticism */
+"poeticism" = "básnictví";
+
+/* word area: political expression */
+"political expression" = "politika";
+
+/* word class: prepositions */
+"prepositions" = "předložky";
+
+/* word class: pronouns */
+"pronouns" = "zájmena";
+
+/* word category: proper name */
+"proper name" = "vlastní jméno";
+
+/* word area: psychological */
+"psychological" = "psychologie";
+
+/* word area: railway transport */
+"railway transport" = "železniční doprava";
+
+/* word category: Scottish */
+"Scottish" = "skotská angličtina";
+
+/* word area: sexual expression */
+"sexual expression" = "sexuální podtext";
+
+/* word category: slangily */
+"slangily" = "slangově";
+
+/* word area: sport related locution */
+"sport related locution" = "sport";
+
+/* word area: sugar industry */
+"sugar industry" = "cukrovarnictví";
+
+/* word area: tanning industry */
+"tanning industry" = "koželužnictví";
+
+/* word area: technical domain */
+"technical domain" = "technicky";
+
+/* word area: term from the field of agriculture */
+"term from the field of agriculture" = "zemědělství";
+
+/* word area: textile industry */
+"textile industry" = "textilní průmysl";
+
+/* word category: uncommon */
+"uncommon" = "neobvykle";
+
+/* word class: verbs */
+"verbs" = "slovesa";
+
+/* word category: vulgarism */
+"vulgarism" = "vulgarita";
+
+/* word area: wood industry */
+"wood industry" = "dřevozpracující průmysl";
+
+/* word area: word related to religion */
+"word related to religion" = "regionální";
+
+/* is plural? */
+"yes" = "ano";
+
+/* word area: zoology */
+"zoology" = "zoologie";
+

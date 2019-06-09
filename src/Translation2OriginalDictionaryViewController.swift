@@ -31,6 +31,8 @@ class Translation2OriginalDictionaryViewController: BaseDictionaryViewController
                     consumer.consume(record: filteredRecords[indexPath.row])
                 }
             }
+        case "info":
+            break
         default:
             debugPrint("unknown segue", segue.identifier ?? "nil")
         }
