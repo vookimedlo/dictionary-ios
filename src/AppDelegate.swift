@@ -15,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        RuntimeSettings.isOriginalVoiceAvailable = AVSpeechSynthesisVoice(language: "en-US") != nil
-        RuntimeSettings.isTranslationVioceAvailable = AVSpeechSynthesisVoice(language: "cs-CZ") != nil
+        RuntimeSettings.isOriginalVoiceAvailable = AVSpeechSynthesisVoice(language: RuntimeSettings.originalLanguage.rawValue) != nil
+        RuntimeSettings.isTranslationVioceAvailable = AVSpeechSynthesisVoice(language: RuntimeSettings.translationLanguage.rawValue) != nil
         return true
     }
 

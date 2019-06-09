@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */; };
 		8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */; };
 		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
 		8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */; };
@@ -17,7 +18,7 @@
 		8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */; };
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
 		8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */; };
-		8D5A8CD422A9B95800981669 /* RuntimeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */; };
+		8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */; };
 		8D903C3B22AD12670044DAA5 /* BaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */; };
 		8D903C3D22AD1CC80044DAA5 /* VoiceOverLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */; };
 		8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3F22AD5EA10044DAA5 /* Toast.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsProtocol.swift; sourceTree = "<group>"; };
 		8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDetailViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cz2EnDictionaryViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecord.swift; sourceTree = "<group>"; };
 		8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordLoader.swift; sourceTree = "<group>"; };
 		8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordConsumer.swift; sourceTree = "<group>"; };
-		8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettings.swift; sourceTree = "<group>"; };
+		8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsEnCz.swift; sourceTree = "<group>"; };
 		8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDetailViewController.swift; sourceTree = "<group>"; };
 		8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverLanguages.swift; sourceTree = "<group>"; };
 		8D903C3F22AD5EA10044DAA5 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -104,7 +106,7 @@
 				8D9F635C22ABCD3D00CE3C12 /* Loaders */,
 				8D9F635D22ABCD4F00CE3C12 /* Parsers */,
 				8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */,
-				8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */,
+				8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */,
+				8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -283,11 +286,12 @@
 				8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */,
 				8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */,
 				8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */,
+				8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */,
 				8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */,
 				8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */,
 				8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */,
 				8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */,
-				8D5A8CD422A9B95800981669 /* RuntimeSettings.swift in Sources */,
+				8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */,
 				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
 				8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
