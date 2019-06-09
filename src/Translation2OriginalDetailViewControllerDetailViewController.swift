@@ -9,7 +9,7 @@
 import AVFoundation
 import UIKit
 
-class En2CzDetailViewController: BaseDetailViewController {
+class Translation2OriginalDetailViewControllerDetailViewController: BaseDetailViewController {
     
     @IBOutlet weak var originalLabel: UILabel!
     @IBOutlet weak var translationLabel: UILabel!
@@ -17,16 +17,17 @@ class En2CzDetailViewController: BaseDetailViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var areaLabel: UILabel!
     @IBOutlet weak var pluralLabel: UILabel!
+
     @IBOutlet weak var translationSayButton: UIButton!
     @IBOutlet weak var originalSayButton: UIButton!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         showRecord()
         originalSayButton.isEnabled = RuntimeSettings.isOriginalVoiceAvailable
         translationSayButton.isEnabled = RuntimeSettings.isTranslationVioceAvailable
     }
-
+    
     private func showRecord() {
         show(originalLabelText: &(originalLabel.text!),
              translationLabelText: &(translationLabel.text!),
@@ -39,7 +40,7 @@ class En2CzDetailViewController: BaseDetailViewController {
 
 // MARK: - IBActions
 
-extension En2CzDetailViewController {
+extension Translation2OriginalDetailViewControllerDetailViewController {
     @IBAction func doneAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -48,16 +49,16 @@ extension En2CzDetailViewController {
         guard let record = record else {
             return
         }
-
-        sayText(say: record.originalText, language: VoiceOverLanguages.englishUS)
+        
+        sayText(say: record.originalText, language: VoiceOverLanguages.czech)
     }
     
     @IBAction func sayTranslationButtonAction(_ sender: Any) {
         guard let record = record else {
             return
         }
-
-        sayText(say: record.translation, language: VoiceOverLanguages.czech)
+        
+        sayText(say: record.translation, language: VoiceOverLanguages.englishUS)
     }
     
     @IBAction func tapGestureAction(_ sender: UITapGestureRecognizer) {

@@ -9,7 +9,7 @@
 import AVFoundation
 import UIKit
 
-class Cz2EnDetailViewController: BaseDetailViewController {
+class Original2TranslationDetailViewController: BaseDetailViewController {
     
     @IBOutlet weak var originalLabel: UILabel!
     @IBOutlet weak var translationLabel: UILabel!
@@ -17,17 +17,16 @@ class Cz2EnDetailViewController: BaseDetailViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var areaLabel: UILabel!
     @IBOutlet weak var pluralLabel: UILabel!
-
     @IBOutlet weak var translationSayButton: UIButton!
     @IBOutlet weak var originalSayButton: UIButton!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         showRecord()
         originalSayButton.isEnabled = RuntimeSettings.isOriginalVoiceAvailable
         translationSayButton.isEnabled = RuntimeSettings.isTranslationVioceAvailable
     }
-    
+
     private func showRecord() {
         show(originalLabelText: &(originalLabel.text!),
              translationLabelText: &(translationLabel.text!),
@@ -40,7 +39,7 @@ class Cz2EnDetailViewController: BaseDetailViewController {
 
 // MARK: - IBActions
 
-extension Cz2EnDetailViewController {
+extension Original2TranslationDetailViewController {
     @IBAction func doneAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -49,16 +48,16 @@ extension Cz2EnDetailViewController {
         guard let record = record else {
             return
         }
-        
-        sayText(say: record.originalText, language: VoiceOverLanguages.czech)
+
+        sayText(say: record.originalText, language: VoiceOverLanguages.englishUS)
     }
     
     @IBAction func sayTranslationButtonAction(_ sender: Any) {
         guard let record = record else {
             return
         }
-        
-        sayText(say: record.translation, language: VoiceOverLanguages.englishUS)
+
+        sayText(say: record.translation, language: VoiceOverLanguages.czech)
     }
     
     @IBAction func tapGestureAction(_ sender: UITapGestureRecognizer) {

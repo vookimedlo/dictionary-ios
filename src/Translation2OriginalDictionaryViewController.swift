@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CZ2EnDictionaryViewController: BaseDictionaryViewController {
+class Translation2OriginalDictionaryViewController: BaseDictionaryViewController {
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--EN2CZ Dictionary-->
+        <!--Original2Translation Dictionary-->
         <scene sceneID="nTz-jx-9qf">
             <objects>
-                <viewController id="4yU-yR-BhJ" userLabel="EN2CZ Dictionary" customClass="En2CzDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4yU-yR-BhJ" userLabel="Original2Translation Dictionary" customClass="Original2TranslationDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xj7-54-LfE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="hfe-hk-IFH" detailTextLabel="wAw-GQ-Yc0" style="IBUITableViewCellStyleSubtitle" id="4Nf-LO-5dE">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="hfe-hk-IFH" detailTextLabel="wAw-GQ-Yc0" style="IBUITableViewCellStyleSubtitle" id="4Nf-LO-5dE">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Nf-LO-5dE" id="HAM-SJ-4pF">
@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="1267" y="563"/>
         </scene>
-        <!--EN2CZ View Controller-->
+        <!--Original2Translation Detail-->
         <scene sceneID="q1B-fD-Iml">
             <objects>
-                <viewController id="mfV-xm-rGl" userLabel="EN2CZ View Controller" customClass="En2CzDetailViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mfV-xm-rGl" userLabel="Original2Translation Detail" customClass="Original2TranslationDetailViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFw-vX-j52">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -329,10 +329,10 @@
             </objects>
             <point key="canvasLocation" x="2022" y="563"/>
         </scene>
-        <!--About View Controller-->
+        <!--About-->
         <scene sceneID="SKC-Uj-Mv0">
             <objects>
-                <viewController id="08F-zK-PP1" customClass="AboutViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="08F-zK-PP1" userLabel="About" customClass="AboutViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kxn-Lg-se8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -589,10 +589,10 @@
             </objects>
             <point key="canvasLocation" x="-246" y="914"/>
         </scene>
-        <!--EN2CZ-->
+        <!--Original2Translation-->
         <scene sceneID="oh8-82-s1i">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q73-r6-gqv" userLabel="EN2CZ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q73-r6-gqv" userLabel="Original2Translation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="English to Czech" id="Xjo-RJ-EP7" userLabel="English to Czech"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0ui-WP-q7E">
@@ -608,10 +608,10 @@
             </objects>
             <point key="canvasLocation" x="525" y="563"/>
         </scene>
-        <!--CZ2EN-->
+        <!--Translation2Original-->
         <scene sceneID="C9E-JO-gTH">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9HQ-fj-IbH" userLabel="CZ2EN" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9HQ-fj-IbH" userLabel="Translation2Original" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Czech to English" id="1sT-xd-oDZ" userLabel="Czech to English"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UE3-ZR-Ftp">
@@ -627,10 +627,10 @@
             </objects>
             <point key="canvasLocation" x="525" y="1288"/>
         </scene>
-        <!--CZ2EN Dictionary-->
+        <!--Translation2Original Dictionary-->
         <scene sceneID="p2Q-Qh-O3Z">
             <objects>
-                <viewController id="7AY-Vl-QGI" userLabel="CZ2EN Dictionary" customClass="CZ2EnDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7AY-Vl-QGI" userLabel="Translation2Original Dictionary" customClass="Translation2OriginalDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cAK-dz-YKm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -650,7 +650,7 @@
                                 <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="cJ3-xq-pHm" detailTextLabel="Jod-jQ-UAO" style="IBUITableViewCellStyleSubtitle" id="JwF-1N-jqS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="cJ3-xq-pHm" detailTextLabel="Jod-jQ-UAO" style="IBUITableViewCellStyleSubtitle" id="JwF-1N-jqS">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JwF-1N-jqS" id="gLH-YG-n3q">
@@ -711,10 +711,10 @@
             </objects>
             <point key="canvasLocation" x="1267" y="1288"/>
         </scene>
-        <!--CZ2EN View Controller-->
+        <!--Translation2Original Detail-->
         <scene sceneID="YbR-w7-xek">
             <objects>
-                <viewController id="RNx-Ti-Bl7" userLabel="CZ2EN View Controller" customClass="Cz2EnDetailViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RNx-Ti-Bl7" userLabel="Translation2Original Detail" customClass="Translation2OriginalDetailViewControllerDetailViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yXB-5s-g3c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

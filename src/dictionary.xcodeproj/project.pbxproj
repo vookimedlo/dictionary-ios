@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */; };
-		8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */; };
+		8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */; };
 		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
-		8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */; };
-		8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */; };
+		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
+		8D5A8CC222A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */; };
 		8D5A8CC522A70AFA00981669 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; };
 		8D5A8CC722A70B3E00981669 /* SQLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D5A8CCA22A70DD800981669 /* EnCz.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC922A70DD800981669 /* EnCz.db */; };
@@ -26,7 +26,7 @@
 		8D9F636222ABF19800CE3C12 /* ArrayResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */; };
 		8D9F636422AC360900CE3C12 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636322AC360900CE3C12 /* AboutViewController.swift */; };
 		8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */; };
-		8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */; };
+		8DEA8FC222A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */; };
 		8DEA8FC522A43D5D007DBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC322A43D5D007DBBF5 /* Main.storyboard */; };
 		8DEA8FC722A43D5F007DBBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */; };
 		8DEA8FCA22A43D5F007DBBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC822A43D5F007DBBF5 /* LaunchScreen.storyboard */; };
@@ -47,10 +47,10 @@
 
 /* Begin PBXFileReference section */
 		8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsProtocol.swift; sourceTree = "<group>"; };
-		8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDetailViewController.swift; sourceTree = "<group>"; };
+		8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDetailViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
-		8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cz2EnDictionaryViewController.swift; sourceTree = "<group>"; };
-		8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cz2EnDetailViewController.swift; sourceTree = "<group>"; };
+		8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDictionaryViewController.swift; sourceTree = "<group>"; };
+		8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDetailViewControllerDetailViewController.swift; sourceTree = "<group>"; };
 		8D5A8CC422A70AFA00981669 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = ../Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		8D5A8CC922A70DD800981669 /* EnCz.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = EnCz.db; path = ../db/EnCz.db; sourceTree = "<group>"; };
 		8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecord.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		8D9F636322AC360900CE3C12 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = En2CzDictionaryViewController.swift; sourceTree = "<group>"; };
+		8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDictionaryViewController.swift; sourceTree = "<group>"; };
 		8DEA8FC422A43D5D007DBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DEA8FC922A43D5F007DBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -185,10 +185,10 @@
 				8D9F636322AC360900CE3C12 /* AboutViewController.swift */,
 				8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */,
 				8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */,
-				8D5A8CC122A7071900981669 /* Cz2EnDetailViewController.swift */,
-				8D5A8CBF22A7050300981669 /* Cz2EnDictionaryViewController.swift */,
-				8D5A8CBB22A46C6200981669 /* En2CzDetailViewController.swift */,
-				8DEA8FC122A43D5D007DBBF5 /* En2CzDictionaryViewController.swift */,
+				8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */,
+				8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */,
+				8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */,
+				8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -287,15 +287,15 @@
 				8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */,
 				8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */,
 				8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */,
-				8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */,
-				8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */,
+				8D5A8CC222A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift in Sources */,
+				8DEA8FC222A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift in Sources */,
 				8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */,
-				8D5A8CBC22A46C6200981669 /* En2CzDetailViewController.swift in Sources */,
+				8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */,
 				8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */,
 				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
 				8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
-				8D5A8CC022A7050300981669 /* Cz2EnDictionaryViewController.swift in Sources */,
+				8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */,
 				8D9F636422AC360900CE3C12 /* AboutViewController.swift in Sources */,
 				8D903C3D22AD1CC80044DAA5 /* VoiceOverLanguages.swift in Sources */,
 				8D903C3B22AD12670044DAA5 /* BaseDetailViewController.swift in Sources */,
