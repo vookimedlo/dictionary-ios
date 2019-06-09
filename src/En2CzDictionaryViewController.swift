@@ -32,7 +32,7 @@ class En2CzDictionaryViewController: BaseDictionaryViewController {
                 }
             }
         default:
-            debugPrint("unknown segue", segue.identifier ?? "nul")
+            debugPrint("unknown segue", segue.identifier ?? "nil")
         }
     }
 }

@@ -30,7 +30,7 @@ class AboutViewController: UIViewController {
         case 4:
             urlToShow = URL(string: "https://github.com/svobodneslovniky/svobodneslovniky")
         default:
-            debugPrint("Unknown tag", sender.view?.tag)
+            debugPrint("Unknown tag", sender.view?.tag ?? "nil")
         }
         
         if let url = urlToShow {

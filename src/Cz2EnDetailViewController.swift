@@ -60,4 +60,8 @@ extension Cz2EnDetailViewController {
         
         sayText(say: record.translation, language: VoiceOverLanguages.englishUS)
     }
+    
+    @IBAction func tapGestureAction(_ sender: UITapGestureRecognizer) {
+        tapGestureActionResolver(tag: sender.view?.tag)
+    }
 }

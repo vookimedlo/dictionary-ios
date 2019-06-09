@@ -20,6 +20,7 @@
 		8D5A8CD422A9B95800981669 /* RuntimeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */; };
 		8D903C3B22AD12670044DAA5 /* BaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */; };
 		8D903C3D22AD1CC80044DAA5 /* VoiceOverLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */; };
+		8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3F22AD5EA10044DAA5 /* Toast.swift */; };
 		8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */; };
 		8D9F636222ABF19800CE3C12 /* ArrayResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */; };
 		8D9F636422AC360900CE3C12 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636322AC360900CE3C12 /* AboutViewController.swift */; };
@@ -56,6 +57,7 @@
 		8D5A8CD322A9B95800981669 /* RuntimeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettings.swift; sourceTree = "<group>"; };
 		8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDetailViewController.swift; sourceTree = "<group>"; };
 		8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverLanguages.swift; sourceTree = "<group>"; };
+		8D903C3F22AD5EA10044DAA5 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordNotesParser.swift; sourceTree = "<group>"; };
 		8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayResolver.swift; sourceTree = "<group>"; };
 		8D9F636322AC360900CE3C12 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
+		8D903C3E22AD5E750044DAA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D903C3F22AD5EA10044DAA5 /* Toast.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		8D9F635C22ABCD3D00CE3C12 /* Loaders */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 				8DEA8FD122A43DB5007DBBF5 /* Controllers */,
 				8D5A8CC822A70DA300981669 /* Databases */,
 				8DEA8FD222A43DCC007DBBF5 /* Delegates */,
+				8D903C3E22AD5E750044DAA5 /* Extensions */,
 				8D5A8CCB22A70E6B00981669 /* Model */,
 				8D5A8CD022A852FC00981669 /* Protocols */,
 				8DEA8FD322A43DDC007DBBF5 /* Storyboards */,
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */,
+				8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */,
 				8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */,
 				8D5A8CC222A7071900981669 /* Cz2EnDetailViewController.swift in Sources */,
 				8DEA8FC222A43D5D007DBBF5 /* En2CzDictionaryViewController.swift in Sources */,

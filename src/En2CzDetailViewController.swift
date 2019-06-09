@@ -35,7 +35,6 @@ class En2CzDetailViewController: BaseDetailViewController {
              areaLabelText: &(areaLabel.text!),
              pluralLabelText: &(pluralLabel.text!))
     }
-
 }
 
 // MARK: - IBActions
@@ -59,5 +58,9 @@ extension En2CzDetailViewController {
         }
 
         sayText(say: record.translation, language: VoiceOverLanguages.czech)
+    }
+    
+    @IBAction func tapGestureAction(_ sender: UITapGestureRecognizer) {
+        tapGestureActionResolver(tag: sender.view?.tag)
     }
 }

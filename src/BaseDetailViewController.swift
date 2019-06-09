@@ -44,4 +44,21 @@ class BaseDetailViewController: UIViewController, DictionaryRecordConsumer {
         areaLabelText = notes.area
         pluralLabelText = notes.plural
     }
+    
+    func tapGestureActionResolver(tag: Int?) {
+        guard let record = record else {
+            return
+        }
+        
+        switch tag {
+        case 1:
+            UIPasteboard.general.string = record.originalText
+            showToast(message: "in clipboard")
+        case 2:
+            UIPasteboard.general.string = record.translation
+            showToast(message: "in clipboard")
+        default:
+            debugPrint("Unknown tag", tag ?? "nil")
+        }
+    }
 }

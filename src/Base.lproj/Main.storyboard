@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--EN2CZ-->
+        <!--EN2CZ Dictionary-->
         <scene sceneID="nTz-jx-9qf">
             <objects>
-                <viewController id="4yU-yR-BhJ" userLabel="EN2CZ" customClass="En2CzDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4yU-yR-BhJ" userLabel="EN2CZ Dictionary" customClass="En2CzDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xj7-54-LfE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,13 +114,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-Z6-1KV">
+                            <imageView clipsSubviews="YES" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-Z6-1KV">
                                 <rect key="frame" x="20" y="135" width="43" height="32"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="S41-11-6ZA"/>
                                     <constraint firstAttribute="width" constant="43" id="coN-g4-oH7"/>
                                     <constraint firstAttribute="width" secondItem="fmF-Z6-1KV" secondAttribute="height" multiplier="43:32" id="iVq-GL-jeB"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qtP-Ec-3d4" appends="YES" id="AXJ-1u-1q7"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLb-ZU-hKp" userLabel="CZSayButton">
                                 <rect key="frame" x="53" y="793" width="44" height="44"/>
@@ -162,14 +166,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="yBo-rF-P95">
+                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="yBo-rF-P95">
                                 <rect key="frame" x="20" y="216" width="44" height="45"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yBo-rF-P95" secondAttribute="height" multiplier="44:45" id="4Nt-gM-sAD"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="AzI-uO-RlU"/>
                                     <constraint firstAttribute="width" constant="44" id="WpD-Yk-RwS"/>
                                     <constraint firstAttribute="height" constant="45" id="ezm-CA-gbt"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Vhp-7M-B3Y" appends="YES" id="6e0-yg-ewB"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jTm-c4-62w">
                                 <rect key="frame" x="0.0" y="742" width="414" height="4"/>
@@ -308,6 +316,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LPn-sa-gjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="qtP-Ec-3d4" userLabel="Tap Gesture Recognizer - Original">
+                    <connections>
+                        <action selector="tapGestureAction:" destination="mfV-xm-rGl" id="GxT-FS-e16"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Vhp-7M-B3Y" userLabel="Tap Gesture Recognizer - Translation">
+                    <connections>
+                        <action selector="tapGestureAction:" destination="mfV-xm-rGl" id="zAd-TC-lq1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2022" y="563"/>
         </scene>
@@ -590,10 +608,10 @@
             </objects>
             <point key="canvasLocation" x="525" y="563"/>
         </scene>
-        <!--Czech to English-->
+        <!--CZ2EN-->
         <scene sceneID="C9E-JO-gTH">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9HQ-fj-IbH" userLabel="Czech to English" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9HQ-fj-IbH" userLabel="CZ2EN" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Czech to English" id="1sT-xd-oDZ" userLabel="Czech to English"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UE3-ZR-Ftp">
@@ -609,10 +627,10 @@
             </objects>
             <point key="canvasLocation" x="525" y="1288"/>
         </scene>
-        <!--CZ2EN-->
+        <!--CZ2EN Dictionary-->
         <scene sceneID="p2Q-Qh-O3Z">
             <objects>
-                <viewController id="7AY-Vl-QGI" userLabel="CZ2EN" customClass="CZ2EnDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7AY-Vl-QGI" userLabel="CZ2EN Dictionary" customClass="CZ2EnDictionaryViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cAK-dz-YKm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -713,13 +731,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="BSK-KH-A8s">
+                            <imageView clipsSubviews="YES" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="BSK-KH-A8s">
                                 <rect key="frame" x="20" y="135" width="43" height="32"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BSK-KH-A8s" secondAttribute="height" multiplier="43:32" id="B7E-0e-lP8"/>
                                     <constraint firstAttribute="height" constant="32" id="WKX-jW-Rs3"/>
                                     <constraint firstAttribute="width" constant="43" id="WNB-ye-8H8"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZGR-72-LsA" appends="YES" id="0xg-Ml-5Zv"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ov7-3O-cgU" userLabel="CZSayButton">
                                 <rect key="frame" x="53" y="793" width="44" height="44"/>
@@ -761,14 +783,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="Vtc-NK-t5U">
+                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="Vtc-NK-t5U">
                                 <rect key="frame" x="20" y="216" width="44" height="45"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="44" id="FFR-Lv-Y8f"/>
                                     <constraint firstAttribute="width" secondItem="Vtc-NK-t5U" secondAttribute="height" multiplier="44:45" id="ata-iq-TYX"/>
                                     <constraint firstAttribute="height" constant="45" id="bHc-ES-QJg"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="hOT-ss-Tar"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k2C-Gi-gUM" appends="YES" id="I9q-eB-jFb"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOS-r1-ETc">
                                 <rect key="frame" x="0.0" y="742" width="414" height="4"/>
@@ -907,6 +933,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQP-au-qWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZGR-72-LsA" userLabel="Tap Gesture Recognizer - Original">
+                    <connections>
+                        <action selector="tapGestureAction:" destination="RNx-Ti-Bl7" id="RAy-ve-PpD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="k2C-Gi-gUM" userLabel="Tap Gesture Recognizer - Translation">
+                    <connections>
+                        <action selector="tapGestureAction:" destination="RNx-Ti-Bl7" id="66d-dG-vYY"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2022" y="1288"/>
         </scene>
@@ -918,6 +954,6 @@
         <image name="USStamp" width="1159.3333740234375" height="635"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fkk-Xm-LGJ"/>
+        <segue reference="pJr-8m-A5d"/>
     </inferredMetricsTieBreakers>
 </document>
