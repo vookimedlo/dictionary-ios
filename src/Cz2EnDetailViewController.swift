@@ -9,7 +9,7 @@
 import AVFoundation
 import UIKit
 
-class Cz2EnDetailViewController: UIViewController, DictionaryRecordConsumer {
+class Cz2EnDetailViewController: BaseDetailViewController {
     
     @IBOutlet weak var originalLabel: UILabel!
     @IBOutlet weak var translationLabel: UILabel!
@@ -20,38 +20,21 @@ class Cz2EnDetailViewController: UIViewController, DictionaryRecordConsumer {
 
     @IBOutlet weak var translationSayButton: UIButton!
     @IBOutlet weak var originalSayButton: UIButton!
-    
-    var record: DictionaryRecord?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        show(record: record)
-        if (!RuntimeSettings.isOriginalVoiceAvailable) {
-            originalSayButton.isEnabled = false
-        }
-        
-        if (!RuntimeSettings.isTranslationVioceAvailable) {
-            translationSayButton.isEnabled = false
-        }
+        showRecord()
+        originalSayButton.isEnabled = RuntimeSettings.isOriginalVoiceAvailable
+        translationSayButton.isEnabled = RuntimeSettings.isTranslationVioceAvailable
     }
     
-    func consume(record: DictionaryRecord) {
-        self.record = record
-    }
-    
-    private func show(record: DictionaryRecord?) {
-        guard let record = record else {
-            return
-        }
-        
-        originalLabel.text = record.originalText
-        translationLabel.text = record.translation
-        
-        let notes = DictionaryRecordNotesParser(record: record)
-        wordClassLabel.text = notes.wordClass
-        categoryLabel.text = notes.category
-        areaLabel.text = notes.area
-        pluralLabel.text = notes.plural
+    private func showRecord() {
+        show(originalLabelText: &(originalLabel.text!),
+             translationLabelText: &(translationLabel.text!),
+             wordClassLabelText: &(wordClassLabel.text!),
+             categoryLabelText: &(categoryLabel.text!),
+             areaLabelText: &(areaLabel.text!),
+             pluralLabelText: &(pluralLabel.text!))
     }
 }
 
@@ -67,11 +50,7 @@ extension Cz2EnDetailViewController {
             return
         }
         
-        let utterance = AVSpeechUtterance(string: record.originalText)
-        utterance.voice = AVSpeechSynthesisVoice(language: "cs-CZ")
-        
-        let synth = AVSpeechSynthesizer()
-        synth.speak(utterance)
+        sayText(say: record.originalText, language: VoiceOverLanguages.czech)
     }
     
     @IBAction func sayTranslationButtonAction(_ sender: Any) {
@@ -79,10 +58,6 @@ extension Cz2EnDetailViewController {
             return
         }
         
-        let utterance = AVSpeechUtterance(string: record.translation)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-        
-        let synth = AVSpeechSynthesizer()
-        synth.speak(utterance)
+        sayText(say: record.translation, language: VoiceOverLanguages.englishUS)
     }
 }
