@@ -21,6 +21,9 @@ class Original2TranslationDictionaryViewController: BaseDictionaryViewController
     
     override func reloadTableViewData() {
         tableView.reloadData();
+        tableView.selectRow(at: IndexPath(row: 0, section: 0),
+                            animated: true,
+                            scrollPosition: UITableView.ScrollPosition.top)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
