@@ -20,12 +20,21 @@ class Translation2OriginalDetailViewControllerDetailViewController: BaseDetailVi
 
     @IBOutlet weak var translationSayButton: UIButton!
     @IBOutlet weak var originalSayButton: UIButton!
+    @IBOutlet weak var pronunciationImage: UIImageView!
+    @IBOutlet weak var pronunciationLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         showRecord()
         originalSayButton.isEnabled = RuntimeSettings.isOriginalVoiceAvailable
         translationSayButton.isEnabled = RuntimeSettings.isTranslationVioceAvailable
+    }
+        
+    private func hidePronunciationWidgetsOnSmallDevices() {
+            originalSayButton.isHidden = true
+            translationSayButton.isHidden = true
+            pronunciationImage.isHidden = true
+            pronunciationLabel.isHidden = true
     }
     
     private func showRecord() {

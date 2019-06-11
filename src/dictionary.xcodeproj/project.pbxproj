@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */; };
 		8D1E9D2F22AD94CE004E0814 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E9D2D22AD94CE004E0814 /* Localizable.strings */; };
+		8D5882B522B03D6E00A288A0 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5882B422B03D6E00A288A0 /* UIDevice.swift */; };
 		8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */; };
 		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
 		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
@@ -52,6 +53,7 @@
 		8D0FD95922AD8C26002A9795 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsProtocol.swift; sourceTree = "<group>"; };
 		8D1E9D2E22AD94CE004E0814 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D5882B422B03D6E00A288A0 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDetailViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDictionaryViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				8D903C3F22AD5EA10044DAA5 /* Toast.swift */,
+				8D5882B422B03D6E00A288A0 /* UIDevice.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */,
+				8D5882B522B03D6E00A288A0 /* UIDevice.swift in Sources */,
 				8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */,
 				8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */,
 				8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */,
