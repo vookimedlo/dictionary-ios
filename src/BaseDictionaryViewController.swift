@@ -21,6 +21,13 @@ class BaseDictionaryViewController: UIViewController,
         filteredRecords = records
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        records = []
+        filteredRecords = records
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return filteredRecords.count
     }
