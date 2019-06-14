@@ -1,0 +1,5 @@
+WWW: https://github.com/svobodneslovniky/svobodneslovniky
+Commit: 4fbad724473b8f66e803539f11d563838cb47ff3
+License: GNU Free Documentation License
+----
+EnCz.db will be regenerated when new app release is created.
