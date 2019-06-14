@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYO-4Y-T5c">
-                                <rect key="frame" x="102" y="409.5" width="210" height="77"/>
+                                <rect key="frame" x="102" y="369.66666666666669" width="210" height="77"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Dictionary">
                                         <attributes>
@@ -30,18 +30,59 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPb-HC-Ix5">
+                                <rect key="frame" x="131" y="449.66666666666669" width="152" height="77.000000000000057"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Slovník">
+                                        <attributes>
+                                            <font key="NSFont" size="48" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="9ml-Fh-Jpd">
+                                <rect key="frame" x="109.66666666666669" y="237" width="195" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="JWf-YN-Q7H"/>
+                                    <constraint firstAttribute="height" constant="104" id="QHN-kl-R80"/>
+                                    <constraint firstAttribute="width" secondItem="9ml-Fh-Jpd" secondAttribute="height" multiplier="15:8" id="xhE-Ff-3qb"/>
+                                </constraints>
+                                <variation key="heightClass=compact" hidden="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="mpH-Ks-Hbt">
+                                <rect key="frame" x="109.66666666666669" y="555" width="195" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mpH-Ks-Hbt" secondAttribute="height" multiplier="15:8" id="C68-Y3-gnY"/>
+                                    <constraint firstAttribute="width" constant="195" id="gYf-b6-TBp"/>
+                                    <constraint firstAttribute="height" constant="104" id="lNf-KG-d0Z"/>
+                                </constraints>
+                                <variation key="heightClass=compact" hidden="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uYO-4Y-T5c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Bvg-h3-rl6"/>
-                            <constraint firstItem="uYO-4Y-T5c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iai-PC-gPY"/>
+                            <constraint firstItem="mpH-Ks-Hbt" firstAttribute="top" secondItem="UPb-HC-Ix5" secondAttribute="bottom" constant="28.5" id="6F8-IS-9Xg"/>
+                            <constraint firstItem="UPb-HC-Ix5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="40" id="K6C-Rt-uIe"/>
+                            <constraint firstItem="uYO-4Y-T5c" firstAttribute="top" secondItem="9ml-Fh-Jpd" secondAttribute="bottom" constant="28.5" id="QYv-xZ-OHv"/>
+                            <constraint firstItem="mpH-Ks-Hbt" firstAttribute="width" secondItem="mpH-Ks-Hbt" secondAttribute="height" multiplier="15:8" id="VYO-lN-BjD"/>
+                            <constraint firstItem="uYO-4Y-T5c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cvQ-pB-4TJ"/>
+                            <constraint firstItem="mpH-Ks-Hbt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ds8-CN-YaJ"/>
+                            <constraint firstItem="UPb-HC-Ix5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lhY-6x-nBB"/>
+                            <constraint firstItem="9ml-Fh-Jpd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oGr-99-Xcl"/>
+                            <constraint firstItem="uYO-4Y-T5c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-40" id="rXq-mR-Ayu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.625" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CZStamp" width="170.66667175292969" height="118"/>
+        <image name="USStamp" width="1159.3333740234375" height="635"/>
+    </resources>
 </document>
