@@ -16,6 +16,9 @@
 /* Class = "UITabBarItem"; title = "Czech to English"; ObjectID = "1sT-xd-oDZ"; */
 "1sT-xd-oDZ.title" = "Česko-Anglický";
 
+/* Class = "UILabel"; text = "Homepage:"; ObjectID = "3TL-Fr-QGR"; */
+"3TL-Fr-QGR.text" = "WWW:";
+
 /* Class = "UILabel"; text = "placeholder"; ObjectID = "4Cc-Sv-lRh"; */
 "4Cc-Sv-lRh.text" = "placeholder";
 
@@ -40,6 +43,9 @@
 /* Class = "UILabel"; text = "not specified"; ObjectID = "bmp-wW-jCv"; */
 "bmp-wW-jCv.text" = "nespecifikováno";
 
+/* Class = "UILabel"; text = "License:"; ObjectID = "Btw-lS-mA0"; */
+"Btw-lS-mA0.text" = "Licence:";
+
 /* Class = "UILabel"; text = "not specified"; ObjectID = "cG2-8z-fku"; */
 "cG2-8z-fku.text" = "nespecifikováno";
 
@@ -54,6 +60,9 @@
 
 /* Class = "UILabel"; text = "License:"; ObjectID = "EqJ-dq-J1c"; */
 "EqJ-dq-J1c.text" = "Licence:";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "eSn-wb-Bfa"; */
+"eSn-wb-Bfa.title" = "Hotovo";
 
 /* Class = "UILabel"; text = "Data:"; ObjectID = "g4h-Ah-Kd8"; */
 "g4h-Ah-Kd8.text" = "Data:";
@@ -127,6 +136,9 @@
 /* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "qLb-IY-3Za"; */
 "qLb-IY-3Za.title" = "Info";
 
+/* Class = "UILabel"; text = "Author:"; ObjectID = "qoF-ld-n1V"; */
+"qoF-ld-n1V.text" = "Autor:";
+
 /* Class = "UILabel"; text = "Plural:"; ObjectID = "Rnv-cd-xtF"; */
 "Rnv-cd-xtF.text" = "Množné číslo:";
 
@@ -136,14 +148,23 @@
 /* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "svP-2q-l2E"; */
 "svP-2q-l2E.title" = "Info";
 
+/* Class = "UILabel"; text = "SQLite.swift"; ObjectID = "SyM-cc-iW5"; */
+"SyM-cc-iW5.text" = "SQLite.swift";
+
 /* Class = "UILabel"; text = "Category:"; ObjectID = "T7D-wd-fuC"; */
 "T7D-wd-fuC.text" = "Kategorie:";
+
+/* Class = "UINavigationItem"; title = "Components"; ObjectID = "tzf-tb-cIV"; */
+"tzf-tb-cIV.title" = "Komponenty";
 
 /* Class = "UILabel"; text = "Dictionary Application"; ObjectID = "UXW-3h-qtz"; */
 "UXW-3h-qtz.text" = "Aplikace Slovník";
 
 /* Class = "UILabel"; text = "Subtitle"; ObjectID = "wAw-GQ-Yc0"; */
 "wAw-GQ-Yc0.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "https://github.com/stephencelis/SQLite.swift"; ObjectID = "WgF-nd-iT6"; */
+"WgF-nd-iT6.text" = "https://github.com/stephencelis/SQLite.swift";
 
 /* Class = "UILabel"; text = "Homepage:"; ObjectID = "WMo-aw-Vad"; */
 "WMo-aw-Vad.text" = "WWW:";
@@ -154,11 +175,20 @@
 /* Class = "UITabBarItem"; title = "English to Czech"; ObjectID = "Xjo-RJ-EP7"; */
 "Xjo-RJ-EP7.title" = "Anglicko-Český";
 
+/* Class = "UILabel"; text = "Stephen Celis"; ObjectID = "XYm-dZ-hbY"; */
+"XYm-dZ-hbY.text" = "Stephen Celis";
+
+/* Class = "UILabel"; text = "MIT"; ObjectID = "y8E-wc-X9u"; */
+"y8E-wc-X9u.text" = "MIT";
+
 /* Class = "UILabel"; text = "MIT"; ObjectID = "YbN-mU-wlp"; */
 "YbN-mU-wlp.text" = "MIT";
 
 /* Class = "UILabel"; text = "placeholder"; ObjectID = "YhE-Rw-Mv5"; */
 "YhE-Rw-Mv5.text" = "placeholder";
+
+/* Class = "UIBarButtonItem"; title = "Components"; ObjectID = "zFW-G4-jCH"; */
+"zFW-G4-jCH.title" = "Komponenty";
 
 /* Class = "UILabel"; text = "Michal Duda"; ObjectID = "ZHh-CN-oho"; */
 "ZHh-CN-oho.text" = "Michal Duda";

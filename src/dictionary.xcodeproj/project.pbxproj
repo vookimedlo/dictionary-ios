@@ -28,6 +28,7 @@
 		8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */; };
 		8D9F636222ABF19800CE3C12 /* ArrayResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */; };
 		8D9F636422AC360900CE3C12 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F636322AC360900CE3C12 /* AboutViewController.swift */; };
+		8DAC28F022B3FD7B008EC93C /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC28EF22B3FD7A008EC93C /* ComponentViewController.swift */; };
 		8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */; };
 		8DEA8FC222A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */; };
 		8DEA8FC522A43D5D007DBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC322A43D5D007DBBF5 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		8D9F635E22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordNotesParser.swift; sourceTree = "<group>"; };
 		8D9F636122ABF19800CE3C12 /* ArrayResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayResolver.swift; sourceTree = "<group>"; };
 		8D9F636322AC360900CE3C12 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8DAC28EF22B3FD7A008EC93C /* ComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
 		8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDictionaryViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				8D9F636322AC360900CE3C12 /* AboutViewController.swift */,
 				8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */,
 				8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */,
+				8DAC28EF22B3FD7A008EC93C /* ComponentViewController.swift */,
 				8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */,
 				8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */,
 				8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */,
@@ -307,6 +310,7 @@
 				8D9F635F22ABCDA200CE3C12 /* DictionaryRecordNotesParser.swift in Sources */,
 				8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */,
 				8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */,
+				8DAC28F022B3FD7B008EC93C /* ComponentViewController.swift in Sources */,
 				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
 				8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
