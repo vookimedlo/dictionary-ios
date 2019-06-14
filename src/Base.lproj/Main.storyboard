@@ -466,7 +466,7 @@
                                 </connections>
                             </label>
                             <label opaque="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="https://github.com/svobodneslovniky/svobodneslovniky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISd-G8-1ZD">
-                                <rect key="frame" x="109" y="306" width="267.5" height="11"/>
+                                <rect key="frame" x="109" y="306" width="268" height="11"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
@@ -502,6 +502,12 @@
                                     <outletCollection property="gestureRecognizers" destination="3Ey-L8-2jg" appends="YES" id="1gf-6W-blp"/>
                                 </connections>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="placeholder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8i-Vn-umv">
+                                <rect key="frame" x="16" y="339" width="288" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -516,6 +522,7 @@
                             <constraint firstItem="EqJ-dq-J1c" firstAttribute="trailing" secondItem="iWa-z0-euH" secondAttribute="trailing" id="6g4-Oa-1ie"/>
                             <constraint firstItem="ISd-G8-1ZD" firstAttribute="centerY" secondItem="iWa-z0-euH" secondAttribute="centerY" id="7xG-0h-oNP"/>
                             <constraint firstItem="EqJ-dq-J1c" firstAttribute="leading" secondItem="iWa-z0-euH" secondAttribute="leading" id="9Hc-3S-i1t"/>
+                            <constraint firstItem="S8i-Vn-umv" firstAttribute="trailing" secondItem="DGx-W4-q2P" secondAttribute="trailing" id="9Qp-T6-sG8"/>
                             <constraint firstItem="YbN-mU-wlp" firstAttribute="leading" secondItem="iKc-Gf-PQh" secondAttribute="leading" id="9X5-lz-Ijl"/>
                             <constraint firstItem="PP0-sB-OkB" firstAttribute="centerX" secondItem="DGx-W4-q2P" secondAttribute="centerX" id="Atz-95-YJU"/>
                             <constraint firstItem="DGx-W4-q2P" firstAttribute="top" secondItem="PP0-sB-OkB" secondAttribute="bottom" constant="7" id="Bhu-m3-hgE"/>
@@ -524,6 +531,7 @@
                             <constraint firstItem="Pyv-HA-8ij" firstAttribute="leading" secondItem="J01-H1-hFJ" secondAttribute="leading" id="Gao-gi-DO9"/>
                             <constraint firstItem="g4h-Ah-Kd8" firstAttribute="baseline" secondItem="p8O-53-Tbj" secondAttribute="baseline" id="Hjn-e0-EUB"/>
                             <constraint firstItem="J01-H1-hFJ" firstAttribute="top" secondItem="Pyv-HA-8ij" secondAttribute="bottom" constant="8" symbolic="YES" id="L41-RC-Yy7"/>
+                            <constraint firstItem="S8i-Vn-umv" firstAttribute="top" secondItem="qui-D7-nKH" secondAttribute="bottom" constant="8" id="L95-Dw-0Qp"/>
                             <constraint firstItem="Pyv-HA-8ij" firstAttribute="top" secondItem="UXW-3h-qtz" secondAttribute="bottom" constant="5" id="LhY-fm-hFy"/>
                             <constraint firstItem="iKc-Gf-PQh" firstAttribute="top" secondItem="YbN-mU-wlp" secondAttribute="bottom" constant="15" id="NeT-ff-PGa"/>
                             <constraint firstItem="iKc-Gf-PQh" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DGx-W4-q2P" secondAttribute="trailing" id="PJg-fQ-tn5"/>
@@ -532,6 +540,7 @@
                             <constraint firstItem="g4h-Ah-Kd8" firstAttribute="trailing" secondItem="EqJ-dq-J1c" secondAttribute="trailing" id="RHN-Uu-iD1"/>
                             <constraint firstItem="UXW-3h-qtz" firstAttribute="trailing" secondItem="ZHh-CN-oho" secondAttribute="trailing" id="Rll-Ms-570"/>
                             <constraint firstItem="DGx-W4-q2P" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="p8O-53-Tbj" secondAttribute="trailing" id="RzA-AA-EiN"/>
+                            <constraint firstItem="4tU-Id-lft" firstAttribute="trailing" secondItem="S8i-Vn-umv" secondAttribute="trailing" constant="16" id="Stg-x4-D84"/>
                             <constraint firstItem="qc2-zP-8pF" firstAttribute="top" secondItem="4tU-Id-lft" secondAttribute="top" id="UtA-bX-rri"/>
                             <constraint firstItem="WMo-aw-Vad" firstAttribute="centerY" secondItem="iKc-Gf-PQh" secondAttribute="centerY" id="WAx-5R-WYc"/>
                             <constraint firstItem="ISd-G8-1ZD" firstAttribute="leading" secondItem="chL-l8-Ir2" secondAttribute="leading" id="aDi-8E-AMM"/>
@@ -561,9 +570,13 @@
                             <constraint firstItem="J01-H1-hFJ" firstAttribute="trailing" secondItem="Pyv-HA-8ij" secondAttribute="trailing" id="vvd-Qv-bgF"/>
                             <constraint firstItem="Pyv-HA-8ij" firstAttribute="baseline" secondItem="ZHh-CN-oho" secondAttribute="baseline" id="wDT-94-USC"/>
                             <constraint firstItem="ISd-G8-1ZD" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DGx-W4-q2P" secondAttribute="trailing" id="xZy-vL-pXT"/>
+                            <constraint firstItem="S8i-Vn-umv" firstAttribute="leading" secondItem="4tU-Id-lft" secondAttribute="leading" constant="16" id="yqI-XC-zJt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4tU-Id-lft"/>
                     </view>
+                    <connections>
+                        <outlet property="versionLabel" destination="S8i-Vn-umv" id="3ut-wp-qNH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2F9-Qc-pci" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="n3U-rC-2RX" userLabel="Tap Gesture Recognizer - app license">
@@ -587,7 +600,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2756.521739130435" y="912.72321428571422"/>
+            <point key="canvasLocation" x="2756.25" y="912.5"/>
         </scene>
         <!--Components-->
         <scene sceneID="v06-cc-yjO">

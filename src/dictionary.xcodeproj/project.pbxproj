@@ -22,6 +22,7 @@
 		8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */; };
 		8D5A8CD422A9B95800981669 /* RuntimeSettingsEnCz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */; };
 		8D86D04622AEDE25007E1146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D04422AEDE25007E1146 /* InfoPlist.strings */; };
+		8D8816CD22B4070500E77A31 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8816CC22B4070500E77A31 /* Bundle.swift */; };
 		8D903C3B22AD12670044DAA5 /* BaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */; };
 		8D903C3D22AD1CC80044DAA5 /* VoiceOverLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */; };
 		8D903C4022AD5EA10044DAA5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D903C3F22AD5EA10044DAA5 /* Toast.swift */; };
@@ -66,6 +67,7 @@
 		8D5A8CD122A8541400981669 /* DictionaryRecordConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordConsumer.swift; sourceTree = "<group>"; };
 		8D5A8CD322A9B95800981669 /* RuntimeSettingsEnCz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeSettingsEnCz.swift; sourceTree = "<group>"; };
 		8D86D04522AEDE25007E1146 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8816CC22B4070500E77A31 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		8D903C3A22AD12670044DAA5 /* BaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDetailViewController.swift; sourceTree = "<group>"; };
 		8D903C3C22AD1CC80044DAA5 /* VoiceOverLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverLanguages.swift; sourceTree = "<group>"; };
 		8D903C3F22AD5EA10044DAA5 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -133,8 +135,9 @@
 		8D903C3E22AD5E750044DAA5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8D903C3F22AD5EA10044DAA5 /* Toast.swift */,
+				8D8816CC22B4070500E77A31 /* Bundle.swift */,
 				8D5882B422B03D6E00A288A0 /* UIDevice.swift */,
+				8D903C3F22AD5EA10044DAA5 /* Toast.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "dictionary" */;
 			buildPhases = (
+				8D8816CE22B40A7500E77A31 /* Update App Version */,
 				8DEA8FB822A43D5D007DBBF5 /* Sources */,
 				8DEA8FB922A43D5D007DBBF5 /* Frameworks */,
 				8DEA8FBA22A43D5D007DBBF5 /* Resources */,
@@ -295,6 +299,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D8816CE22B40A7500E77A31 /* Update App Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update App Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/scripts/versionUpdate.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DEA8FB822A43D5D007DBBF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -313,6 +338,7 @@
 				8DAC28F022B3FD7B008EC93C /* ComponentViewController.swift in Sources */,
 				8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */,
 				8D5A8CD222A8541400981669 /* DictionaryRecordConsumer.swift in Sources */,
+				8D8816CD22B4070500E77A31 /* Bundle.swift in Sources */,
 				8DEA8FC022A43D5D007DBBF5 /* AppDelegate.swift in Sources */,
 				8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */,
 				8D9F636422AC360900CE3C12 /* AboutViewController.swift in Sources */,

@@ -9,9 +9,13 @@
 import UIKit
 
 class AboutViewController: UIViewController {
-
+    @IBOutlet weak var versionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let version = Bundle.bundleVersion()
+        versionLabel.text = "v" + version.version
     }
     
     @IBAction func doneButtonAction(_ sender: Any) {
