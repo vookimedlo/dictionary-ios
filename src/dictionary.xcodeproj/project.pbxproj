@@ -15,7 +15,7 @@
 		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
 		8D5A8CC222A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */; };
 		8D5A8CC522A70AFA00981669 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; };
-		8D5A8CC722A70B3E00981669 /* SQLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D5A8CC722A70B3E00981669 /* SQLite.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D5A8CCA22A70DD800981669 /* EnCz.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC922A70DD800981669 /* EnCz.db */; };
 		8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */; };
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
@@ -38,14 +38,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8D5A8CC622A70B2E00981669 /* CopyFiles */ = {
+		8D5A8CC622A70B2E00981669 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8D5A8CC722A70B3E00981669 /* SQLite.framework in CopyFiles */,
+				8D5A8CC722A70B3E00981669 /* SQLite.framework in Copy Frameworks */,
 			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -136,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				8D8816CC22B4070500E77A31 /* Bundle.swift */,
-				8D5882B422B03D6E00A288A0 /* UIDevice.swift */,
 				8D903C3F22AD5EA10044DAA5 /* Toast.swift */,
+				8D5882B422B03D6E00A288A0 /* UIDevice.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -240,7 +241,7 @@
 				8DEA8FB822A43D5D007DBBF5 /* Sources */,
 				8DEA8FB922A43D5D007DBBF5 /* Frameworks */,
 				8DEA8FBA22A43D5D007DBBF5 /* Resources */,
-				8D5A8CC622A70B2E00981669 /* CopyFiles */,
+				8D5A8CC622A70B2E00981669 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
