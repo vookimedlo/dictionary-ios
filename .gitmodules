@@ -1,0 +1,3 @@
+[submodule "external/svobodneslovniky"]
+	path = external/svobodneslovniky
+	url = https://github.com/svobodneslovniky/svobodneslovniky
