@@ -234,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "dictionary" */;
 			buildPhases = (
+				8D99431722B56AEA0013D258 /* Generate Dictionary Database */,
 				8D8816CE22B40A7500E77A31 /* Update App Version */,
 				8DE2401E22B426080070F0EA /* Lint Sources */,
 				8DEA8FB822A43D5D007DBBF5 /* Sources */,
@@ -318,6 +319,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PROJECT_DIR}/scripts/versionUpdate.sh\n";
+		};
+		8D99431722B56AEA0013D258 /* Generate Dictionary Database */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Dictionary Database";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd scripts\npython3 txt2db.py\n";
 		};
 		8DE2401E22B426080070F0EA /* Lint Sources */ = {
 			isa = PBXShellScriptBuildPhase;
