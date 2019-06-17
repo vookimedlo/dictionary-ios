@@ -32,17 +32,7 @@ buildNumber=$(date +%Y%m%d)
 
 if [ "$MODE" != "release" ]; then
     shortVersion="${shortVersion}-dev"
+    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $shortVersion" "$plist"
 fi
 
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "$plist"
-/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $shortVersion" "$plist"
-
-# Release could be created only by setting a MODE veriable to the 'release'
-# xcodebuild -alltargets MODE='release'
-#
-# Create a build using the current version could be created only by setting
-# a MODE veriable to the 're-release'
-# xcodebuild -alltargets MODE='re-release'
-#
-# All other builds are considered as a development build and '-dev' is appended to the short version
-#
