@@ -15,7 +15,6 @@
 		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
 		8D5A8CC222A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */; };
 		8D5A8CC522A70AFA00981669 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; };
-		8D5A8CC722A70B3E00981669 /* SQLite.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D5A8CCA22A70DD800981669 /* EnCz.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC922A70DD800981669 /* EnCz.db */; };
 		8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */; };
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
@@ -36,20 +35,6 @@
 		8DEA8FC722A43D5F007DBBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC622A43D5F007DBBF5 /* Assets.xcassets */; };
 		8DEA8FCA22A43D5F007DBBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8FC822A43D5F007DBBF5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8D5A8CC622A70B2E00981669 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8D5A8CC722A70B3E00981669 /* SQLite.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8D0FD95822AD8C26002A9795 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
@@ -241,7 +226,7 @@
 				8DEA8FB822A43D5D007DBBF5 /* Sources */,
 				8DEA8FB922A43D5D007DBBF5 /* Frameworks */,
 				8DEA8FBA22A43D5D007DBBF5 /* Resources */,
-				8D5A8CC622A70B2E00981669 /* Copy Frameworks */,
+				8D7B756522B8152E00D6B4CF /* Framework distribution */,
 			);
 			buildRules = (
 			);
@@ -303,6 +288,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8D7B756522B8152E00D6B4CF /* Framework distribution */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/SQLite.framework",
+			);
+			name = "Framework distribution";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 		8D8816CE22B40A7500E77A31 /* Update App Version */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,7 +324,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/scripts/versionUpdate.sh\n";
+			shellScript = "#MODE='release' ${PROJECT_DIR}/scripts/versionUpdate.sh\n${PROJECT_DIR}/scripts/versionUpdate.sh\n";
 		};
 		8D99431722B56AEA0013D258 /* Generate Dictionary Database */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -549,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HRQ8E2SZ4;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
@@ -560,6 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary.en2cz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -569,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HRQ8E2SZ4;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
@@ -580,6 +588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vookimedlo.ios.dictionary.en2cz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
