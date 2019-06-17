@@ -3,19 +3,19 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "DictEN2CZ-5.png",
+      "filename" : "DictEN2CZ-2.png",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "DictEN2CZ-9.png",
+      "filename" : "DictEN2CZ-6.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "DictEN2CZ-16.png",
+      "filename" : "DictEN2CZ-13.png",
       "scale" : "2x"
     },
     {
@@ -27,79 +27,79 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "DictEN2CZ-7.png",
+      "filename" : "DictEN2CZ-4.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "DictEN2CZ-11.png",
+      "filename" : "DictEN2CZ-7.png",
       "scale" : "3x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "DictEN2CZ-8.png",
+      "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
       "filename" : "DictEN2CZ-10.png",
-      "scale" : "2x"
-    },
-    {
-      "size" : "60x60",
-      "idiom" : "iphone",
-      "filename" : "DictEN2CZ-12.png",
       "scale" : "3x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-13.png",
+      "filename" : "DictEN2CZ-9.png",
       "scale" : "1x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-4.png",
+      "filename" : "DictEN2CZ-5.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-14.png",
+      "filename" : "DictEN2CZ-11.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-15.png",
+      "filename" : "DictEN2CZ-12.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
-      "idiom" : "ipad",
-      "filename" : "DictEN2CZ-3.png",
-      "scale" : "1x"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "ipad",
-      "filename" : "DictEN2CZ-6.png",
-      "scale" : "2x"
-    },
-    {
-      "size" : "76x76",
       "idiom" : "ipad",
       "filename" : "DictEN2CZ-1.png",
       "scale" : "1x"
     },
     {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "DictEN2CZ-3.png",
+      "scale" : "2x"
+    },
+    {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-2.png",
+      "filename" : "DictEN2CZ-14.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "DictEN2CZ-15.png",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "DictEN2CZ-8.png",
+      "filename" : "DictEN2CZ-16.png",
       "scale" : "2x"
     },
     {
