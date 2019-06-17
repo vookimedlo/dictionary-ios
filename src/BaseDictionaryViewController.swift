@@ -46,9 +46,6 @@ class BaseDictionaryViewController: UIViewController,
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-
-        records = []
-        filteredRecords = records
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
