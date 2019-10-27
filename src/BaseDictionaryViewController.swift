@@ -36,11 +36,6 @@ class BaseDictionaryViewController: UIViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if UIDevice.current.platform == "iPhone4,1" {
-            // iPhone 4S is too small to show pronunciation widgets
-            hidePronunciationWidgetsOnSmallDevices()
-        }
-
         filteredRecords = records
     }
 
@@ -84,10 +79,5 @@ class BaseDictionaryViewController: UIViewController,
 
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
-
-        if UIDevice.current.platform == "iPhone4,1" {
-            // iPhone 4S is too small to show pronunciation widgets
-            hidePronunciationWidgetsOnSmallDevices()
-        }
     }
 }
