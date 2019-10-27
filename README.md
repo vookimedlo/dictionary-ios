@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/badge/platforms-iOS%2013.1%2B-ff69b4.svg)](https://img.shields.io/badge/platforms-iOS%2013.1%2B-ff69b4.svg)
 [![GitHub release](https://img.shields.io/github/release/vookimedlo/dictionary-ios.svg?label=latest%20release)](https://github.com/vookimedlo/dictionary-ios/releases/latest)
 [![Codebeat badge](https://codebeat.co/badges/f8715d72-0ed9-4685-b160-36c1be6605f6)](https://codebeat.co/projects/github-com-vookimedlo-dictionary-ios-master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios?ref=badge_shield)
 
 Open English/Czech dictionary for the iOS platform - available in [the App Store][5]
 
@@ -81,3 +82,7 @@ The application is fully translated into the Czech language. However, only the d
 [3]: https://github.com/svobodneslovniky/svobodneslovniky
 [4]: https://openclipart.org/
 [5]: https://apps.apple.com/us/app/dictionary-english-czech/id1468782740?ls=1
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios?ref=badge_large)
