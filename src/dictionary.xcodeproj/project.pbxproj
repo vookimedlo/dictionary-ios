@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D10DF9122AD694D00C9A489 /* RuntimeSettingsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10DF9022AD694D00C9A489 /* RuntimeSettingsProtocol.swift */; };
+		8D13ED0623661CE00031693E /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 8D13ED0523661CE00031693E /* SQLite */; };
 		8D1E9D2F22AD94CE004E0814 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1E9D2D22AD94CE004E0814 /* Localizable.strings */; };
 		8D5882B522B03D6E00A288A0 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5882B422B03D6E00A288A0 /* UIDevice.swift */; };
 		8D5A8CBC22A46C6200981669 /* Original2TranslationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBB22A46C6200981669 /* Original2TranslationDetailViewController.swift */; };
 		8D5A8CBE22A6FB4F00981669 /* BaseDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */; };
 		8D5A8CC022A7050300981669 /* Translation2OriginalDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */; };
 		8D5A8CC222A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */; };
-		8D5A8CC522A70AFA00981669 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A8CC422A70AFA00981669 /* SQLite.framework */; };
 		8D5A8CCA22A70DD800981669 /* EnCz.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A8CC922A70DD800981669 /* EnCz.db */; };
 		8D5A8CCD22A70E9300981669 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */; };
 		8D5A8CCF22A70EF700981669 /* DictionaryRecordLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */; };
@@ -46,7 +46,6 @@
 		8D5A8CBD22A6FB4F00981669 /* BaseDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDictionaryViewController.swift; sourceTree = "<group>"; };
 		8D5A8CBF22A7050300981669 /* Translation2OriginalDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDictionaryViewController.swift; sourceTree = "<group>"; };
 		8D5A8CC122A7071900981669 /* Translation2OriginalDetailViewControllerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation2OriginalDetailViewControllerDetailViewController.swift; sourceTree = "<group>"; };
-		8D5A8CC422A70AFA00981669 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = ../Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		8D5A8CC922A70DD800981669 /* EnCz.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = EnCz.db; path = ../db/EnCz.db; sourceTree = "<group>"; };
 		8D5A8CCC22A70E9300981669 /* DictionaryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecord.swift; sourceTree = "<group>"; };
 		8D5A8CCE22A70EF700981669 /* DictionaryRecordLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecordLoader.swift; sourceTree = "<group>"; };
@@ -75,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5A8CC522A70AFA00981669 /* SQLite.framework in Frameworks */,
+				8D13ED0623661CE00031693E /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +84,6 @@
 		8D5A8CC322A70AFA00981669 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D5A8CC422A70AFA00981669 /* SQLite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,13 +224,15 @@
 				8DEA8FB822A43D5D007DBBF5 /* Sources */,
 				8DEA8FB922A43D5D007DBBF5 /* Frameworks */,
 				8DEA8FBA22A43D5D007DBBF5 /* Resources */,
-				8D7B756522B8152E00D6B4CF /* Framework distribution */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = dictionary;
+			packageProductDependencies = (
+				8D13ED0523661CE00031693E /* SQLite */,
+			);
 			productName = dictionary;
 			productReference = 8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */;
 			productType = "com.apple.product-type.application";
@@ -253,7 +253,7 @@
 				};
 			};
 			buildConfigurationList = 8DEA8FB722A43D5D007DBBF5 /* Build configuration list for PBXProject "dictionary" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -262,6 +262,9 @@
 				cs,
 			);
 			mainGroup = 8DEA8FB322A43D5D007DBBF5;
+			packageReferences = (
+				8D13ED0423661CE00031693E /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 8DEA8FBD22A43D5D007DBBF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,26 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8D7B756522B8152E00D6B4CF /* Framework distribution */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/SQLite.framework",
-			);
-			name = "Framework distribution";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SQLite.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 		8D8816CE22B40A7500E77A31 /* Update App Version */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,7 +540,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HRQ8E2SZ4;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,7 +562,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HRQ8E2SZ4;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,6 +599,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D13ED0423661CE00031693E /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D13ED0523661CE00031693E /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D13ED0423661CE00031693E /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DEA8FB422A43D5D007DBBF5 /* Project object */;
 }
