@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4864" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYO-4Y-T5c">
-                                <rect key="frame" x="102" y="369.66666666666669" width="210" height="77"/>
+                                <rect key="frame" x="102" y="369.5" width="210" height="77"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Dictionary">
                                         <attributes>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPb-HC-Ix5">
-                                <rect key="frame" x="131" y="449.66666666666669" width="152" height="77.000000000000057"/>
+                                <rect key="frame" x="131" y="449.5" width="152" height="77"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Slovník">
                                         <attributes>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USStamp" translatesAutoresizingMaskIntoConstraints="NO" id="9ml-Fh-Jpd">
-                                <rect key="frame" x="109.66666666666669" y="237" width="195" height="104"/>
+                                <rect key="frame" x="109.5" y="237" width="195" height="104"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="JWf-YN-Q7H"/>
                                     <constraint firstAttribute="height" constant="104" id="QHN-kl-R80"/>
@@ -50,7 +50,7 @@
                                 <variation key="heightClass=compact" hidden="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CZStamp" translatesAutoresizingMaskIntoConstraints="NO" id="mpH-Ks-Hbt">
-                                <rect key="frame" x="109.66666666666669" y="555" width="195" height="104"/>
+                                <rect key="frame" x="109.5" y="555" width="195" height="104"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mpH-Ks-Hbt" secondAttribute="height" multiplier="15:8" id="C68-Y3-gnY"/>
                                     <constraint firstAttribute="width" constant="195" id="gYf-b6-TBp"/>
