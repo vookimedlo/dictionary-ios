@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2019.10.28-dev</string>
+	<string>2019.10.29-dev</string>
 	<key>CFBundleVersion</key>
-	<string>20191028</string>
+	<string>20191029</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
