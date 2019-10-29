@@ -61,7 +61,7 @@
 		8D9F636322AC360900CE3C12 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		8DAC28EF22B3FD7A008EC93C /* ComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
 		8DC2F8232367946100EAB652 /* dictionary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dictionary.entitlements; sourceTree = "<group>"; };
-		8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEA8FBC22A43D5D007DBBF5 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA8FBF22A43D5D007DBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DEA8FC122A43D5D007DBBF5 /* Original2TranslationDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original2TranslationDictionaryViewController.swift; sourceTree = "<group>"; };
 		8DEA8FC422A43D5D007DBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 		8DEA8FBD22A43D5D007DBBF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */,
+				8DEA8FBC22A43D5D007DBBF5 /* Dictionary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DEA8FBB22A43D5D007DBBF5 /* dictionary */ = {
+		8DEA8FBB22A43D5D007DBBF5 /* Dictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "dictionary" */;
+			buildConfigurationList = 8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
 				8D99431722B56AEA0013D258 /* Generate Dictionary Database */,
 				8D8816CE22B40A7500E77A31 /* Update App Version */,
@@ -231,12 +231,12 @@
 			);
 			dependencies = (
 			);
-			name = dictionary;
+			name = Dictionary;
 			packageProductDependencies = (
 				8D13ED0523661CE00031693E /* SQLite */,
 			);
 			productName = dictionary;
-			productReference = 8DEA8FBC22A43D5D007DBBF5 /* dictionary.app */;
+			productReference = 8DEA8FBC22A43D5D007DBBF5 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DEA8FBB22A43D5D007DBBF5 /* dictionary */,
+				8DEA8FBB22A43D5D007DBBF5 /* Dictionary */,
 			);
 		};
 /* End PBXProject section */
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "dictionary" */ = {
+		8DEA8FCE22A43D5F007DBBF5 /* Build configuration list for PBXNativeTarget "Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DEA8FCF22A43D5F007DBBF5 /* Debug */,
