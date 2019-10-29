@@ -83,6 +83,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="searchBar" destination="6oj-KR-97n" id="srq-o5-pb7"/>
                         <outlet property="tableView" destination="9FK-Sl-jqQ" id="c0y-09-5PO"/>
                     </connections>
                 </viewController>
@@ -855,6 +856,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="searchBar" destination="0bU-87-w2d" id="kuZ-aU-rX5"/>
                         <outlet property="tableView" destination="Oo2-VG-2La" id="eha-RS-VkB"/>
                     </connections>
                 </viewController>
