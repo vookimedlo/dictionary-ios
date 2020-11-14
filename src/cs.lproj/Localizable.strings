@@ -49,6 +49,9 @@
 /* word class: conjunctions */
 "conjunctions" = "spojky";
 
+/* UI Title */
+"Dictionary English-Czech" = "Slovník Anglicko-Český";
+
 /* word area: ecology */
 "ecology" = "ekologie";
 

@@ -30,6 +30,7 @@ import UIKit
 class Original2TranslationDictionaryViewController: BaseDictionaryViewController {
     // swiftlint:enable
     @IBOutlet var tableView: UITableView!
+    @IBOutlet weak var searchBar: UISearchBar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,10 @@ class Original2TranslationDictionaryViewController: BaseDictionaryViewController
         let populate = DictionaryRecordLoader(db: Bundle.main.path(forResource: RuntimeSettings.dictionaryDatabase, ofType: "db")!)
         records = populate.populate(table: RuntimeSettings.databaseOriginal2TranslationTable)
         filteredRecords = records
+
+        #if targetEnvironment(macCatalyst)
+            searchBar.becomeFirstResponder()
+        #endif
     }
 
     override func reloadTableViewData() {
