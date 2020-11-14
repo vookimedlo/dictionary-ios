@@ -6,7 +6,9 @@
 [![Codebeat badge](https://codebeat.co/badges/f8715d72-0ed9-4685-b160-36c1be6605f6)](https://codebeat.co/projects/github-com-vookimedlo-dictionary-ios-master)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvookimedlo%2Fdictionary-ios?ref=badge_shield)
 
-Open English/Czech dictionary for the iOS platform - available in [the App Store][5]
+Open English/Czech dictionary for the iOS platform - available in [the App Store][5].
+
+Open English/Czech dictionary for the Mac platform - available in [the Mac App Store][6].
 
 ## Motivation
 My motivation to implement this application was to learn how to develop iOS-based applications. As a side-effect, I also wanted to know what all procedures are required to submit a final app in the Apple App Store. Later, this project was also updated to be fully compatible with the Mac Catalyst.
@@ -39,7 +41,7 @@ My motivation to implement this application was to learn how to develop iOS-base
    - How to include a [swiftlint][2] checks in a build process
    - How to suppress specific rules
 7) Catalyst
-   - How to update the iOS aware application to support the Catalyst Intel x64 or Apple Silicon architecture.
+   - How to update the iOS aware application to support the Catalyst Intel x64 or Apple Silicon architecture
 
 ## Dictionary data
 Dictionary data are taken from the [Free Dictionaries][3] project, which is good enough for my testing purposes.
@@ -84,6 +86,7 @@ The application is fully translated into the Czech language. However, only the d
 [3]: https://github.com/svobodneslovniky/svobodneslovniky
 [4]: https://openclipart.org/
 [5]: https://apps.apple.com/us/app/dictionary-english-czech/id1468782740?ls=1
+[6]: https://apps.apple.com/us/app/dictionary-english-czech/id1485464273?ls=1
 
 
 ## License
