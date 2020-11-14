@@ -39,7 +39,7 @@ My motivation to implement this application was to learn how to develop iOS-base
    - How to include a [swiftlint][2] checks in a build process
    - How to suppress specific rules
 7) Catalyst
-  - How to update the iOS aware application to support the Catalyst Intel x64 or Apple Silicon architecture.
+   - How to update the iOS aware application to support the Catalyst Intel x64 or Apple Silicon architecture.
 
 ## Dictionary data
 Dictionary data are taken from the [Free Dictionaries][3] project, which is good enough for my testing purposes.
